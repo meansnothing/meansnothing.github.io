@@ -1,0 +1,62 @@
+@page{
+    size: auto;
+    margin: 0;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+
+  .content{
+    position: absolute;
+    left:0; top:0; width:100%;height:100%;
+  }
+
+  .photo{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30%;
+  }
+  .photo img{
+    height: 500px;
+    border-radius:10% 10% 10% 10%;
+  }
+  .header{
+    position: relative;
+    padding-top: 600; 
+    height: 50px;
+    }
+
+  .header  ul{
+      list-style: none; /*去掉列表前面的圆点*/
+  }
+  .header  ul li{ /*todo: position adapting to the page */
+      float: left;
+      font-size: 38px;
+      width: 30%;
+  }
+
+  .header  ul li a{
+      display: block; /*将超链接转为块儿，可以保证其霸占父亲的整行*/
+      height: 50px;
+      text-decoration: none; /*去掉超链的下划线*/
+      color:#dbaddd;
+      text-align: center;  /*让这个div内部的文本居中*/
+  }
+
+  body{
+    background-color: rgb(6, 25, 44);
+  }
+  
+  a {
+    display: inline-block;
+    /* background: #69c; */
+    color: rgb(182, 175, 240);
+    font-family: cursive, "sans-serif"; 
+    padding: 5px 10px;
+  }
+/*   
+  h1, h2, h3{
+    margin: 50;
+    color: rgb(243, 152, 223);
+  } */
