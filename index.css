@@ -31,24 +31,25 @@
     height: 50px;
     }
 
+    .text  ul{
+      list-style: none; /*去掉列表前面的圆点*/
+  }
+    .text ul li{
+      font-size: 20px;
+      font-family: cursive, "sans-serif"; 
+      color:#d9d3da;
+    }
+
   .header  ul{
       list-style: none; /*去掉列表前面的圆点*/
   }
   .header  ul li{ /*todo: position adapting to the page */
       float: left;
       font-size: 38px;
+      font-family: cursive, "sans-serif"; 
       width: 30%;
   }
 
-  .text  ul{
-    list-style: none; /*去掉列表前面的圆点*/
-}
-  .text ul li{
-    list-style: none; /*去掉列表前面的圆点*/
-    font-size: 20px;
-    font-family: cursive, "sans-serif"; 
-    color:#d9d3da;
-  }
   
   .header  ul li a{
       display: block; /*将超链接转为块儿，可以保证其霸占父亲的整行*/
