@@ -17,9 +17,18 @@
     padding-top: 50px;
     padding-left: 30%;
   }
-  .photo img{
-    height: 500px;
+  .photo   img{
+    position: relative;
+    width: 380px;
+    height: 480px;
     border-radius:10% 10% 10% 10%;
+    top:10%;
+    left:5%;
+  }
+  .photo li{
+    list-style: none; /*去掉列表前面的圆点*/
+    font-family: Georgia, serif; 
+    color:#d9d3da;
   }
   .header{
     position: relative;
@@ -40,12 +49,12 @@
       display: block; /*将超链接转为块儿，可以保证其霸占父亲的整行*/
       height: 50px;
       text-decoration: none; /*去掉超链的下划线*/
-      color:#dbaddd;
+      color:#f0b459;
       text-align: center;  /*让这个div内部的文本居中*/
   }
 
   body{
-    background-color: rgb(6, 25, 44);
+    background-color: rgb(1, 22, 3);
   }
   
   a {
