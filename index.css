@@ -9,7 +9,8 @@
 
   .photo  img{
     position: relative;
-    left: 400px;
+    left: 480px;
+    top: 100px;
     width: 380px;
     height: 480px;
     border-radius:10% 10% 10% 10%;
