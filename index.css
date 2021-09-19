@@ -8,12 +8,13 @@
   }
 
   .photo{
-    position: absolute;
+    position: relative;
     padding-top: 5%;
     padding-left: 32%;
   }
   .photo  img{
     position: relative;
+    padding-left: 32%;
     width: 380px;
     height: 480px;
     border-radius:10% 10% 10% 10%;
