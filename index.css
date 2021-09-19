@@ -8,7 +8,7 @@
   }
 
   .photo{
-    position: relative;
+    position: absolute;
     padding-top: 5%;
     padding-left: 32%;
   }
