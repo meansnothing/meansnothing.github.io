@@ -7,13 +7,9 @@
     box-sizing: border-box;
   }
 
-  .photo{
-    position: relative;
-    left: 32%;
-  }
   .photo  img{
     position: relative;
-    padding-left: 32%;
+    left: 32%;
     width: 380px;
     height: 480px;
     border-radius:10% 10% 10% 10%;
