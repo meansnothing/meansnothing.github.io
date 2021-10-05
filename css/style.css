@@ -48,7 +48,7 @@
 	h2
 	{
 		font-size: 1.25em;
-		letter-spacing: 8px;
+		letter-spacing: 2px;
 	}
 	
 	h3
@@ -190,19 +190,24 @@
 			.image.full
 			{
 				display: block;
+				/* margin-left: auto;
+  				margin-right: auto; */
 				width: 100%;
 			}
 			
 			.image.left
 			{
 				float: left;
+				margin-left: auto;
+  				margin-right: auto;
 				margin: 0 2em 2em 0;
 			}
 			
 			.image.centered
 			{
 				display: block;
-				margin: 0 0 2em 0;
+				margin: 0 auto;
+				width: auto;
 			}
 
 				.image.centered img
@@ -1226,8 +1231,8 @@
 			#banner header h2
 			{
 				font-weight: 400;
-				font-size: 1.75em;
-				letter-spacing: 8px;
+				font-size: 2em;
+				letter-spacing: 4px;
 			}
 
 		#banner p
